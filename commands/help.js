@@ -44,7 +44,7 @@ module.exports = {
           { name: '🔀 Shuffle', value: 'Trộn các bài hát trong hàng đợi' },
           { name: '📃 playlist', value: 'quản lý danh sách phát          ' }
         )
-        .setImage(`https://antimatter.vn/wp-content/uploads/2022/04/hinh-nen-dong-powerpoint-chat-luong-cao.gif`); 
+        .setImage(`https://cdn.discordapp.com/attachments/1004341381784944703/1165201249331855380/RainbowLine.gif?ex=6607c9ba&is=65f554ba&hm=2a4a1f0178b6dfa353502a471586c5acdaec0e2e1b7ab80ce44b27156b44d95e&`); 
 
       const basicCommandsEmbed = new EmbedBuilder()
         .setColor(client.config.embedColor)
@@ -57,7 +57,7 @@ module.exports = {
            { name: '🎵 Now Playing', value: 'Hiển thị thông tin bài hát đang phát' },
           { name: '🔊 Volume', value: 'Điều chỉnh âm lượng nhạc [ nghe ở âm lượng lớn sẽ nguy hiểm ]' },
         ) 
-       .setImage('https://cdn.discordapp.com/attachments/1150827819547504741/1168917372267151370/standard.gif?ex=65538222&is=65410d22&hm=b4994392f44679da41fc9304eb69deaa3769e136057556deec0db69ae8d33a97&')
+       .setImage('https://antimatter.vn/wp-content/uploads/2022/04/hinh-nen-dong-powerpoint-chat-luong-cao.gif')
       const button1 = new ButtonBuilder()
         .setLabel('YouTube')
         .setURL('https://www.youtube.com/channel/UC-xfqwctJQP3BDI060i15-w')
