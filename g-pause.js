@@ -1,6 +1,7 @@
 // Dependencies
 const { ApplicationCommandOptionType, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
-	Command = require('../../structures/Command.js');
+	const db = require("../mongoDB");
+Command = require('../../structures/Command.js');
 
 /**
  * Giveaway pause command
