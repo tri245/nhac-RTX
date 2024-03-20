@@ -1,5 +1,7 @@
 // Dependencies
-const { time: { getTotalTime } } = require('../../utils'),
+const db = require("../mongoDB");
+const { EmbedBuilder } = require('discord.js');
+
 	{ ApplicationCommandOptionType, PermissionsBitField: { Flags } } = require('discord.js'),
 	Command = require('../../structures/Command.js');
 
