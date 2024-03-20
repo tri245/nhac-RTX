@@ -1,6 +1,6 @@
 // Dependencies
 const { ApplicationCommandOptionType, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
-
+const db = require("../mongoDB");
 
 	{ ApplicationCommandOptionType, PermissionsBitField: { Flags } } = require('discord.js'),
 	{ ChannelType } = require('discord-api-types/v10'),
