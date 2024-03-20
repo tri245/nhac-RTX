@@ -1,5 +1,6 @@
 // Dependencies
-const	{ ApplicationCommandOptionType, PermissionsBitField: { Flags } } = require('discord.js'),
+const { ApplicationCommandOptionType, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
+
 	Command = require('../../structures/Command.js');
 
 /**
