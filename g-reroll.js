@@ -1,6 +1,6 @@
 // Dependencies
 const { ApplicationCommandOptionType, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
-
+const db = require("../mongoDB");
 	Command = require('../../structures/Command.js');
 
 /**
