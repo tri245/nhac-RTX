@@ -1,5 +1,5 @@
 // Dependencies
-const	Command = require('../../structures/Command.js');
+const { ApplicationCommandOptionType, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 
 /**
  * CustomCommand command
