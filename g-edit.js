@@ -1,6 +1,7 @@
 // Dependencies
-const db = require("../mongoDB");
-const { EmbedBuilder } = require('discord.js');
+const { ApplicationCommandOptionType, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
+
+
 
 	{ ApplicationCommandOptionType, PermissionsBitField: { Flags } } = require('discord.js'),
 	Command = require('../../structures/Command.js');
