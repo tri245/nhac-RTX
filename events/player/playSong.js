@@ -7,16 +7,14 @@ module.exports = async (client, queue, song) => {
     if (queue?.textChannel) {
       const embed = new EmbedBuilder()
       .setAuthor({
-        name: 'Hiện đang phát một Bản nhạc',
+        name: 'Currently playing a Track',
         iconURL: 'https://cdn.discordapp.com/attachments/1140841446228897932/1144671132948103208/giphy.gif', 
         url: 'https://discord.gg/FUEHs7RCqz'
     })
-    .setImage(`https://cdn.discordapp.com/attachments/1004341381784944703/1165201249331855380/RainbowLine.gif?ex=654f37ba&is=653cc2ba&hm=648a2e070fab36155f4171962e9c3bcef94857aca3987a181634837231500177&`);    
     .setDescription(`\n ‎ \n▶️ **Chi tiết :** **${song?.name}**\n▶️ **Tận hưởng trải nghiệm âm nhạc đỉnh cao. ** \n▶️ **Nếu liên kết bị hỏng khi phát lại, hãy thử đưa ra truy vấn.**`)
 .setImage(queue.songs[0].thumbnail)
-    .setColor('#00FF00')
-    .setImage('https://antimatter.vn/wp-content/uploads/2022/04/hinh-nen-dong-powerpoint-chat-luong-cao.gif')
-    .setFooter({ text: 'Thông tin thêm - Sử dụng lệnh /help [TriNho]' });
+    .setColor('#FF0000')
+    .setFooter({ text: 'More info - Use /help command [RTX GAMING]' });
      
       queue?.textChannel?.send({ embeds: [embed] }).catch(e => { });
     }
